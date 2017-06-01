@@ -18,8 +18,8 @@ android {
         release {
             keyAlias 'jenkins'
             keyPassword 'jenkins1234'
-            storeFile file('jobberwocky-jenkins-key.jks')
-            storePassword 'demo1234'
+            storeFile file('jenkins-key.jks')
+            storePassword 'jenkins1234'
         }
     }
     buildTypes {
